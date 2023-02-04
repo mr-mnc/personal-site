@@ -1,0 +1,184 @@
+body {
+  text-align: center;
+  margin: 0;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  /* width: 15%; */
+  margin: 50px auto 0 auto;
+  font-size:5.575rem;
+  color: #66BFBF;
+  line-height: 2;
+  /* this h1 tag will align in center only when there is no width .
+                  If there is width use this. margin:0 auto 0 auto.
+                  this means 0 margin on the top, auto margin right, 0 margin on the bottom and auto margin on the left . we can rewrite this as margin:0 auto;*/
+}
+.subtitle{
+  font-family: 'Montserrat',sans-serif;
+}
+/* p{
+
+} */
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.55rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Monstserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #E3FDFD;
+  padding-top: 100px;
+  position: relative;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  width: 90px;
+  position: absolute;
+  right: 650px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  width: 90px;
+  position: absolute;
+  left: 650px;
+  bottom: 500px;
+}
+
+.mountain {
+  width: 700px;
+  height: 500px;
+  background-color: #E3FDFD;
+}
+.dp{
+  width:200px;
+}
+.coding{
+  width:20%;
+  float: left;
+  margin-right: 30px;
+
+}
+.gaming{
+  width:19.7%;
+  float: right;
+  margin-left: 30px;
+
+
+
+}
+.head-space{
+  line-height: 2;
+
+}
+/* .middle-container {
+
+}
+*/
+a{
+  color: #11999E;
+  font-family: 'Monstserrat', sans-serif;
+  font-size: 1.1rem;
+  margin:10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: .9rem;
+  padding: 20px 0;
+}
+
+.skill-row{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+
+
+}
+p{
+  line-height: 2;
+}
+
+
+hr{
+  margin: 70px auto;
+  border: #EAF6F6 dotted 5px;
+  border-bottom: none;
+  width: 3%;
+  /* border-style:none;
+  border-top-style: dotted;
+  border-color: #A6E3E9;
+  border-width: 5px;
+  width:3%; */
+
+}
+
+.intro{
+  width: 20%;
+  margin: auto;
+}
+
+.contact-msg{
+  width:30%;
+  margin: 30px auto ;
+}
+
+.contact-me{
+  height: 300px;
+
+}
+
+
+.btn {
+  background: #11cde4;
+  background-image: -webkit-linear-gradient(top, #11cde4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cde4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cde4, #11999e);
+  background-image: -o-linear-gradient(top, #11cde4, #11999e);
+  background-image: linear-gradient(to bottom, #11cde4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Monstserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 100px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+
+
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
